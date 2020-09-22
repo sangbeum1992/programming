@@ -23,4 +23,6 @@ def solution(participant, completion):
     return answer
 
 solution(par1, com1)
+
+solution(par1, com1)
         
