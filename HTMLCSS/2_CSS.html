@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <title>SANGBEUM'S FIRST WEBPAGE</title>
+    <meta charset = "utf-8">
+    <style>
+        a {
+            color:black ; 
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 0px;
+            padding: 20px;
+        }
+        #grid ol {
+            border-right: 1px solid gray;
+            width: 100px;
+            margin: 0px;
+            padding: 32px;
+        }
+        body{
+            margin: 0;
+        }
+
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+        #article{
+            padding-left: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><a href= "index.html" style="font-size: 30px; color:rgb(6, 116, 6)">도상범 HTML with 생활코딩</a></h1>
+    <div id="grid">
+        <ol>
+            <li><a href= "1_html.html">HTML</a></li>
+            <li><a href= "2_CSS.html">CSS</a></li> 
+                <!-- id값은 유일무이 하니까 한번만 사용 가능 -->
+            <li><a href= "3_JavaScript.html">JavaScript</a></li>    
+        </ol>
+        <div id="article">
+                <!-- 
+            <h1><a href= "index.html">도상범 HTML with 생활코딩</a></h1>
+            <ol>
+                <li><a href= "1_html.html"><font color = "red">HTML</font></a></li>
+                <li><a href= "2_CSS.html">CSS</a></li>
+                <li><a href= "3_JavaScript.html">JavaScript</a></li>
+            </ol>
+            --> 
+        
+            <h2>CSS 페이지</h2>
+            <p>
+                <ul>CSS 강의 실습 전용 페이지입니다</ul>
+                <ul>CSS テスト　です</ul>
+                <ul>CSS Test</ul>
+                
+            </p>
+        </div>
+    </div>
+</body>
