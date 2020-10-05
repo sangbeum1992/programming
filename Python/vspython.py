@@ -5,7 +5,7 @@ def hellobot():
         a = input() # 입력칸 생성
         
         if a != "Bye": # Bye가 아닌 경우엔 항상 Hi라고 대답하고
-            print("Hi!")
+            print("Hi! I'm hellobot!")
             
             continue # 다시 입력칸 생성하는 단계로 돌아감
         
