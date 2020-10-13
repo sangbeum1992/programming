@@ -13,4 +13,5 @@ def hellobot():
             print("Ok bye...") # Bye라고 입력하는 경우에만 Ok bye...라는 답을 남기고
             break # 반복문 탈출
 
+print('Hellobot Activated')
 hellobot()
